@@ -21,7 +21,7 @@ function run(fun)
 {
     fun()
 }
-fun(function(){console.log('executando...')})
+run(function(){console.log('executando...')})
 
 //
 function soma(a,b)
